@@ -119,3 +119,86 @@ margin-top: 20px;}
 }
 
 
+
+/* Tablets and below */
+@media (max-width: 768px) {
+    .play-video {
+      flex-basis: 100%;
+      padding: 0 10px;
+    }
+  
+    .play-video iframe {
+      height: 50vw; /* adjust for better fit on smaller screen */
+    }
+  
+    .play-video h3 {
+      font-size: 18px;
+    }
+  
+    .play-video-info {
+      font-size: 12px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .publisher {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .publisher img {
+      margin-bottom: 10px;
+    }
+  
+    .publisher button {
+      margin-top: 10px;
+      padding: 6px 20px;
+      font-size: 14px;
+    }
+  
+    .vid-description {
+      padding-left: 10px;
+    }
+  }
+  
+  /* Mobile Phones */
+  @media (max-width: 480px) {
+    .play-video iframe {
+      height: 55vw;
+    }
+  
+    .play-video h3 {
+      font-size: 16px;
+    }
+  
+    .publisher div p {
+      font-size: 16px;
+    }
+  
+    .vid-description p,
+    .vid-description h4 {
+      font-size: 13px;
+    }
+  
+    .comment h3 {
+      font-size: 13px;
+    }
+  
+    .comment h3 span {
+      font-size: 11px;
+    }
+  
+    .comment-action {
+      font-size: 13px;
+    }
+  
+    .comment img {
+      width: 30px;
+    }
+  
+    .comment-action img {
+      width: 18px;
+    }
+  }
+  

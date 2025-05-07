@@ -17,3 +17,52 @@ flex-basis: 30%;
     font-size: 13px;
     margin-bottom: 5px;
 }
+
+/* Tablets and below */
+@media (max-width: 768px) {
+    .recommended {
+      flex-basis: 100%;
+      margin-top: 20px;
+    }
+  
+    .side-video-list {
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .side-video-list img {
+      width: 45%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    .vid-info {
+      flex-basis: 55%;
+    }
+  
+    .vid-info h4 {
+      font-size: 12px;
+    }
+  }
+  
+  /* Mobile Phones */
+  @media (max-width: 480px) {
+    .side-video-list {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .side-video-list img {
+      width: 100%;
+    }
+  
+    .vid-info {
+      flex-basis: 100%;
+    }
+  
+    .vid-info h4 {
+      font-size: 12px;
+    }
+  }
+  
